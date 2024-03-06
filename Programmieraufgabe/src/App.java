@@ -18,15 +18,15 @@ public class App {
         switch (gameName) {
             case "":    
                 SixFourtyNine game = new SixFourtyNine();
-                System.out.println("Glückszahlen für das Spiel " + gameName + " werden generiert...");
+                //System.out.println("Glückszahlen für das Spiel " + gameName + " werden generiert...");
                 break;
             case "Lotto 6aus49":  
                 SixFourtyNine game2 = new SixFourtyNine();
-                System.out.println("Glückszahlen für das Spiel " + gameName + " werden generiert...");
+                //System.out.println("Glückszahlen für das Spiel " + gameName + " werden generiert...");
                 break;
             case "Eurojackpot": 
                 FiveFifty game3 = new FiveFifty();
-                System.out.println("Glückszahlen für das Spiel " + gameName + " werden generiert...");
+                //System.out.println("Glückszahlen für das Spiel " + gameName + " werden generiert...");
                 break;
             default: 
                 System.out.println("Kein gültiger Name angegeben.\n Die gültigen Namen sind: Lotto 6aus49 und Eurojackpot.");  
